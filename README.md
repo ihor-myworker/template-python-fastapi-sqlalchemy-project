@@ -15,10 +15,11 @@
 
 ## Database migrations:
 
-1. Append your code with import of a new model to alembic/env.py file like in the example below:
+1. Update sqlalchemy.url in alembic.ini file to match your databse url
+2. Append your code with import of a new model to alembic/env.py file like in the example below:
    ```
    from app.series.models import Series
    from app.user.models import User
    ```
-2. Run command: `alembic revision --autogenerate -m "<your migration message>"`
-3. Apply recently created migration: `alembic upgrade head`
+3. Run command: `alembic revision --autogenerate -m "<your migration message>"`
+4. Apply recently created migration: `alembic upgrade head`
