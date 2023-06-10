@@ -32,4 +32,3 @@ Thumbs.db
 
 # Ignore the configuration file with credentials
 config.ini
-alembic.ini
