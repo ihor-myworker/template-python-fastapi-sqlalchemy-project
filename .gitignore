@@ -1,0 +1,35 @@
+# Python
+*.py[cod]
+__pycache__/
+venv/
+env/
+
+# SQLAlchemy
+*.sqlite
+
+# Editor and IDE files
+.idea/
+
+# Dependency directories
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Testing
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore the configuration file with credentials
+config.ini
+alembic.ini
